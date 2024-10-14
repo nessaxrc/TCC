@@ -1,0 +1,729 @@
+/* Geral */
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #254588;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.geral{
+    width: 100%;
+   display: flex;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+li:hover{
+    transform: translateY(-3px);
+    color: #FFF077;
+}
+/* Logo */
+
+.logo img {
+    width: 120px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.logo img:hover{
+    transform: translateY(-3px);
+}
+
+/* Menu de Links */
+.navlinks ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navlinks li{
+    margin: 0 40px 0 40px;
+}
+
+
+/* Seção de Perfil */
+.divUser .notificacoes {
+    width: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.areaperfil{
+    display: flex;
+    align-items: center;
+}
+
+.areaperfil img {
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #FFF077;
+    margin-right: 10px;
+}
+
+/* Ícone de Menu (Mobile) */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+/* Checkbox do Menu (Mobile) */
+.menu {
+    display: none;
+}
+
+/*main*/
+
+/*infromacoes basicas */
+
+.forms{
+    margin: 20px 0;
+}
+
+.Dados{
+    max-width: 65%;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulos{
+    font-size: 1.6rem;
+    color: #254588;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.setavoltar{
+    width: 35px;
+    margin: 43px 0 10px 50px;
+}
+
+.DadosGerais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoesbasicas{
+    width: 100%;
+    background-color: #254588;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    display: flex;
+}
+
+.foto{
+    width: 22%;
+    margin-right: 50px;
+    display: flex;
+}
+
+.Ftmarina{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #FFF077;  
+}
+
+.tituloAmarelo{  
+    color: #FFF077;
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+
+.infos{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.detalhe{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.separacaodetitulos{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+}
+
+.responsavelD{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divE{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.divD{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulosAzuis{
+    color: #254588 ;
+    font-size: 1.6rem;
+}
+
+.paragrafos{
+    font-size: 1.2rem;
+    padding: 22px;
+    color: black;
+}
+
+.infosDocumento{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separacao2{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.titulosAzuis2{
+    color: #254588;
+    font-size: 1.6rem;
+    padding: 10px;
+}
+
+.paragrafosD{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.downloads{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ColocarArquivo{
+    background-color: rgba(190, 188, 188, 0.308);
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid #254588;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divbotaoarquivo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: none;
+}
+
+.botaoarquivo{
+    width: 100%;
+    height: 26px;
+}
+
+.fichamedica {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    font-size: 1.2rem;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    color: #292828;
+}
+
+.resposta1{
+    padding: 15px;
+    border-radius: 5px;
+    width: 20%;
+    justify-content: center;
+    background-color: rgba(190, 188, 188, 0.308);
+    display: flex;
+    border:1px solid #254588;
+}
+
+.resposta{
+    padding: 15px;
+    border-radius: 5px;
+    border:1px solid #254588;
+    width: 100%;
+    justify-content: center;
+    background-color: #86865523;
+}
+
+.res{
+    font-size: 1.2rem;
+    color: #292828;
+}
+
+.digitar {
+    color: #222121;
+    font-size: 16px;
+}
+
+.capacitacao{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+} 
+
+.Proficiencia{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.pacote{
+    background-color: #254588;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    
+}
+
+
+.divisor{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.separador{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+  
+}
+
+.pAmarelo{
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+.pBranco{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Amarelo{
+    color: #FFF077;
+    font-size: 17px;
+}
+
+.branco{
+    font-size: 14px;
+}
+
+.Servicos{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.textoServicos{
+    color: #292828;
+    font-size: 1.2rem;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.aprovacao {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.aprovado {
+    width: 15%;
+    border: 2px solid green;
+    color: #292828;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.situacao{
+    color: green;
+    padding: 10px;
+}
+
+.situacao1{
+    color: red;
+    padding: 40px;
+}
+
+.Reprovado {
+    width: 15%;
+    border: 2px solid rgb(235, 14, 14);
+    color: #292828;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.VerPag {
+    display: none;
+    text-align: center;
+    width: 15%;
+    border: 2px solid rgb(233, 236, 14);
+    background-color: #FFF077;
+    color: #292828;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+}
+
+
+.lista{
+    list-style-type: disc;
+}
+
+footer {
+    background-color: #254588;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+footer div {
+    display: flex;
+    margin: 50px;
+}
+
+footer div p {
+    color: white;
+    margin: 10px;
+}
+
+footer div img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+@media (min-width: 769px)  and (max-width: 1024px) {
+
+    .Dados{
+        max-width: 80%;
+    }
+
+    .foto{
+        width: 30%;
+    }
+    
+    }
+
+
+@media (max-width: 768px) {
+    header {
+        justify-content: space-between;
+        font-size: 0.9rem;
+    }
+
+    .geral {  
+        display: none;
+        position: absolute;  
+        background-color: #254588;  
+        width: 100%;  
+        top: 80px; 
+        left: 0;  
+        padding: 10px 0;  
+    }  
+        
+   
+    .menu:checked + .hamburger + .geral {  
+        display: flex;  
+        flex-direction: column; 
+    }
+
+    .geral ul { 
+        flex-direction: column;
+        margin: 0;  
+        padding: 0; 
+    }
+
+    .geral li {  
+        margin: 15px 0;
+    }
+
+    .hamburger {  
+        display: block;
+    }  
+
+    
+    .navlinks {
+        width: 100%;
+        border-bottom: 2px solid #FFF077; 
+        padding-bottom: 10px; 
+        margin-bottom: 10px; 
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .divUser {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px; 
+    }
+
+
+    .titulos {
+        font-size: 1.3rem;
+    }
+
+    p{
+        font-size: 1.0rem;
+    }
+
+    .forms > .setavoltar{
+        width: 25px;
+        margin: 30px 0 0 10px;
+    }
+
+    .Dados{
+        max-width: 90%;
+    }
+  
+
+    .foto{
+        width: 50%;
+        margin-right:0px;
+        justify-content: center;
+        display: flex;
+    }
+
+    
+    .Ftmarina{
+        width: 80%;
+        border-radius: 10px;
+        border: 1px solid #FFF077;  
+    }
+    
+    .detalhe{
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+    .ColocarArquivo{
+        width: 250px;
+    }
+
+    .downloads{
+        flex-direction: column;
+        
+    }
+
+    .input[type="text"] {
+        max-width: 250px;
+    }
+
+    body{
+        background-color:white ;
+        width: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .tituloAmarelo{
+        font-size: 1.3rem;
+    }
+
+    .separacao{
+        height: 10vh;
+    }
+
+    .informacoesbasicas{
+        flex-direction: column;
+    }
+
+    .responsavelD{
+        flex-direction: column;
+        }
+        
+        .divE{
+        width: 100%;
+        }
+        
+        .divD{
+            width: 100%;
+        }
+
+        .titulosAzuis{
+            font-size: 1.3rem;
+        }
+
+        .Proficiencia{
+            width: 90%;
+        }
+
+        .capacitacao{
+            width: 90%;
+        }
+
+        .fichamedica{
+            width: 90%;
+        }
+        
+        .resposta{
+            padding: 8px;
+
+        }
+        
+        .resposta1{
+            padding: 8px;
+        }
+        
+
+        .informacoes{
+            width: 80%;
+        }
+
+
+        .botaoarquivo{
+            width: 80%;
+            height: 20px;
+        }
+
+        .aprovado {
+            width: 40%;
+        }
+        
+        .Reprovado {
+            width: 40%;
+        }
+
+        .VerPag{
+            width: 40%;
+        }
+        
+        .pacote{
+            width: 100%;
+            flex-direction: column; 
+        }
+        
+        .divisor{
+            width: 100%;
+        }
+
+        footer {
+            flex-direction: column;
+            height: auto;
+        }
+    
+        footer div {
+            flex-direction: column;
+            margin: 20px 0;
+            align-items: center;
+        }
+    
+        footer div p {
+            font-size: 1.0rem;
+            margin: 18px 0 18px 0;
+            text-align: center;
+        }
+    
+        .redesSociais li {
+            flex-direction: row;
+            justify-content: center;
+            padding: 0;
+        }
+    
+        .redesSociais a {
+            margin: 0 15px;
+        }
+    
+        footer div img {
+            width: 32px;
+            padding: 5px;
+        }
+    
+        hr{
+            width: 100%;
+        }
+
+    } 
+     
